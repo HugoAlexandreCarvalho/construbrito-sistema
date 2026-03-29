@@ -15,7 +15,7 @@ from app.services.venda_service import registrar_venda
 
 def menu():
     while True:
-        # 🔒 Verifica inadimplência automaticamente
+        # Verifica inadimplência automaticamente
         verificar_inadimplencia()
 
         print("\n--- SISTEMA CONSTRUBRITO ---")
