@@ -1,7 +1,7 @@
 
-# 🧱 Sistema Construbrito
+#  Sistema Construbrito
 
-## 👥 Equipe Responsável
+##  Equipe Responsável
 
 - **Hugo Alexandre Carvalho Coelho Coutinho**  
   Responsável pelo levantamento de requisitos do sistema e identificação das necessidades da empresa.
@@ -14,7 +14,7 @@
 
 ---
 
-## 📌 Introdução
+##  Introdução
 
 O presente trabalho tem como objetivo apresentar o desenvolvimento inicial do **Sistema Construbrito**, uma solução tecnológica voltada para a gestão de uma loja de materiais de construção.
 
@@ -29,7 +29,7 @@ Nesta etapa, o foco foi a transformação da modelagem e dos requisitos levantad
 
 ---
 
-## 🎯 Objetivo do Sistema
+##  Objetivo do Sistema
 
 O sistema foi desenvolvido com o objetivo de automatizar processos internos da empresa, tornando o atendimento mais ágil e eficiente.
 
@@ -44,7 +44,7 @@ O sistema foi desenvolvido com o objetivo de automatizar processos internos da e
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Python** → Linguagem principal do sistema  
 - **MySQL** → Banco de dados  
@@ -55,13 +55,13 @@ A escolha dessas tecnologias foi baseada na facilidade de desenvolvimento e no d
 
 ---
 
-## 🧩 Estrutura do Projeto
+##  Estrutura do Projeto
 
 O sistema foi organizado de forma modular, visando maior organização e facilidade de manutenção.
-
+<img width="182" height="216" alt="{0E67F969-9AFF-48AD-BD8E-D69B393A58E5}" src="https://github.com/user-attachments/assets/fd737423-babc-43f2-9dfe-ea27f62a53a2" />
 ---
 
-## ⚙️ Funcionalidades Implementadas
+##  Funcionalidades Implementadas
 
 ### 1. Cadastro de Clientes
 Permite registrar clientes com nome e telefone.
@@ -83,7 +83,7 @@ Clientes com compras vencidas há mais de 30 dias são automaticamente bloqueado
 
 ---
 
-## 🧠 Paradigmas de Programação
+##  Paradigmas de Programação
 
 ### Programação Processual
 Aplicada no arquivo `main.py`, com fluxo sequencial do sistema.
@@ -100,7 +100,7 @@ Integração com MySQL para armazenamento permanente das informações.
 
 ---
 
-## 🚀 Roteiro de Desenvolvimento (Futuro)
+##  Roteiro de Desenvolvimento (Futuro)
 
 - Interface gráfica  
 - Painel administrativo  
@@ -110,7 +110,7 @@ Integração com MySQL para armazenamento permanente das informações.
 
 ---
 
-## 📊 Estado Atual do Sistema
+##  Estado Atual do Sistema
 
 O sistema já se encontra em nível **MVP (Produto Mínimo Viável)**, permitindo:
 
@@ -121,33 +121,16 @@ O sistema já se encontra em nível **MVP (Produto Mínimo Viável)**, permitind
 
 ---
 
-## 🔗 Link do Repositório
+##  Link do Repositório
 
 https://github.com/HugoAlexandreCarvalho/construbrito-sistema
 
 ---
 
-## ▶️ Como Executar o Sistema
-
-### 1. Instalar o Python
-Versão recomendada: **3.10 ou superior**
-
-```bash
-python --version
-
-<img width="182" height="216" alt="{0E67F969-9AFF-48AD-BD8E-D69B393A58E5}" src="https://github.com/user-attachments/assets/fd737423-babc-43f2-9dfe-ea27f62a53a2" />
 
 
 
-https://github.com/HugoAlexandreCarvalho/construbrito-sistema
-
-
-
-
-
-
-
-Instruções para Execução do Sistema
+## Instruções para Execução do Sistema
 
 Para executar corretamente o sistema, siga os passos abaixo:
 
