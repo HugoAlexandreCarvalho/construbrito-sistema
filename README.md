@@ -1,4 +1,7 @@
-📄 TRABALHO COMPLETO — ETAPA DE DESENVOLVIMENTO
+Equipe Responsavel 
+1 - Hugo Alexandre Carvalho Coelho Coutinho
+2 - Jeferson Machado dos Santos
+3 - Gustavo Barros Martins
 
 Projeto: Sistema Construbrito
 
@@ -115,11 +118,6 @@ Inserir aqui o link do GitHub:
 
 https://github.com/HugoAlexandreCarvalho/construbrito-sistema
 
-10. Equipe Responsável
-
-Hugo Alexandre Carvalho
-;Jeferson Machado
-;Gustavo Barros
 
 
 
