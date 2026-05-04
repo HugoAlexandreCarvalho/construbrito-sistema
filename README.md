@@ -6,7 +6,7 @@ Equipe Responsaável
 2 - Jeferson Machado dos Santos - Responsável pelo desenvolvimento da estrutura do banco de dados e integração com o sistema.
 
 
-3 - Gustavo Barros Martins - responsável pela implemntação das funcionalidades em Python e testes do sistema.
+3 - Gustavo Barros Martins - Responsável pela implemntação das funcionalidades em Python e testes do sistema.
 
 
 
