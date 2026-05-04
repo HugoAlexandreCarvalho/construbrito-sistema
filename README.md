@@ -1,127 +1,143 @@
-Equipe Responsaável 
 
-1 - Hugo Alexandre Carvalho Coelho Coutinho - Responsável pelo levantamento de requisitos do sistema e identificar as necessidades da empresa.
+# 🧱 Sistema Construbrito
 
+## 👥 Equipe Responsável
 
-2 - Jeferson Machado dos Santos - Responsável pelo desenvolvimento da estrutura do banco de dados e integração com o sistema.
+- **Hugo Alexandre Carvalho Coelho Coutinho**  
+  Responsável pelo levantamento de requisitos do sistema e identificação das necessidades da empresa.
 
+- **Jeferson Machado dos Santos**  
+  Responsável pelo desenvolvimento da estrutura do banco de dados e integração com o sistema.
 
-3 - Gustavo Barros Martins - Responsável pela implemntação das funcionalidades em Python e testes do sistema.
+- **Gustavo Barros Martins**  
+  Responsável pela implementação das funcionalidades em Python e testes do sistema.
 
+---
 
+## 📌 Introdução
 
-Projeto: Sistema Construbrito
+O presente trabalho tem como objetivo apresentar o desenvolvimento inicial do **Sistema Construbrito**, uma solução tecnológica voltada para a gestão de uma loja de materiais de construção.
 
-1. Introdução
+A proposta surgiu a partir da identificação de necessidades reais da empresa, principalmente relacionadas a:
 
-O presente trabalho tem como objetivo apresentar o desenvolvimento inicial do sistema Construbrito, uma solução tecnológica voltada para a gestão de uma loja de materiais de construção. A proposta do sistema surgiu a partir da identificação de necessidades reais da empresa, principalmente relacionadas ao controle de estoque, cadastro de clientes, registro de vendas e bloqueio de clientes inadimplentes.
+- Controle de estoque  
+- Cadastro de clientes  
+- Registro de vendas  
+- Bloqueio de clientes inadimplentes  
 
-Nesta etapa, o foco foi a transformação da modelagem e dos requisitos levantados na fase anterior em código funcional, estabelecendo a base tecnológica do projeto por meio da integração entre Python e MySQL.
-2. Objetivo do Sistema
-O sistema foi desenvolvido com a finalidade de automatizar processos internos da empresa, tornando o atendimento mais ágil e eficiente.
-Os principais objetivos são:
+Nesta etapa, o foco foi a transformação da modelagem e dos requisitos levantados anteriormente em código funcional, estabelecendo a base tecnológica do projeto por meio da integração entre **Python** e **MySQL**.
 
-automatizar o cadastro de clientes;
-facilitar a busca de clientes por nome;
-controlar o estoque de produtos;
-registrar vendas com múltiplos itens;
-atualizar o estoque automaticamente após cada venda;
-bloquear clientes com compras vencidas há mais de 30 dias.
-3. Tecnologias Utilizadas
+---
 
-Para o desenvolvimento do projeto, foram utilizadas as seguintes tecnologias:
+## 🎯 Objetivo do Sistema
 
-Python → linguagem principal do sistema;
-MySQL → sistema de gerenciamento de banco de dados;
-VS Code → ambiente de desenvolvimento;
-GitHub → versionamento e armazenamento remoto do código.
+O sistema foi desenvolvido com o objetivo de automatizar processos internos da empresa, tornando o atendimento mais ágil e eficiente.
 
-A escolha dessas tecnologias foi feita com base na facilidade de desenvolvimento e no maior domínio técnico da equipe sobre essas ferramentas.
+### Principais objetivos:
 
-4. Estrutura do Projeto
+- Automatizar o cadastro de clientes  
+- Facilitar a busca de clientes por nome  
+- Controlar o estoque de produtos  
+- Registrar vendas com múltiplos itens  
+- Atualizar o estoque automaticamente após cada venda  
+- Bloquear clientes com compras vencidas há mais de 30 dias  
 
-O sistema foi organizado de forma modular, dividido em camadas, visando maior organização e facilidade de manutenção.
+---
 
-Estrutura do projeto:
+## 🛠️ Tecnologias Utilizadas
 
+- **Python** → Linguagem principal do sistema  
+- **MySQL** → Banco de dados  
+- **VS Code** → Ambiente de desenvolvimento  
+- **GitHub** → Versionamento de código  
+
+A escolha dessas tecnologias foi baseada na facilidade de desenvolvimento e no domínio técnico da equipe.
+
+---
+
+## 🧩 Estrutura do Projeto
+
+O sistema foi organizado de forma modular, visando maior organização e facilidade de manutenção.
+
+---
+
+## ⚙️ Funcionalidades Implementadas
+
+### 1. Cadastro de Clientes
+Permite registrar clientes com nome e telefone.
+
+### 2. Busca de Clientes
+Permite localizar clientes pelo nome, facilitando o atendimento.
+
+### 3. Cadastro de Produtos
+Permite cadastrar produtos como parafusos, pregos, canos, martelos, entre outros.
+
+### 4. Controle de Estoque
+Atualiza automaticamente a quantidade de produtos após cada venda.
+
+### 5. Registro de Vendas
+Permite registrar vendas com múltiplos produtos e quantidades.
+
+### 6. Bloqueio por Inadimplência
+Clientes com compras vencidas há mais de 30 dias são automaticamente bloqueados.
+
+---
+
+## 🧠 Paradigmas de Programação
+
+### Programação Processual
+Aplicada no arquivo `main.py`, com fluxo sequencial do sistema.
+
+### Programação Modular
+Divisão em módulos:
+
+- cliente_serviço  
+- produto_serviço  
+- venda_serviço  
+
+### Persistência de Dados
+Integração com MySQL para armazenamento permanente das informações.
+
+---
+
+## 🚀 Roteiro de Desenvolvimento (Futuro)
+
+- Interface gráfica  
+- Painel administrativo  
+- Sistema de pagamentos  
+- Relatórios de inadimplência  
+- Histórico de compras por cliente  
+
+---
+
+## 📊 Estado Atual do Sistema
+
+O sistema já se encontra em nível **MVP (Produto Mínimo Viável)**, permitindo:
+
+- Testes funcionais  
+- Apresentação parcial  
+- Demonstração prática  
+- Evolução para novas funcionalidades  
+
+---
+
+## 🔗 Link do Repositório
+
+https://github.com/HugoAlexandreCarvalho/construbrito-sistema
+
+---
+
+## ▶️ Como Executar o Sistema
+
+### 1. Instalar o Python
+Versão recomendada: **3.10 ou superior**
+
+```bash
+python --version
 
 <img width="182" height="216" alt="{0E67F969-9AFF-48AD-BD8E-D69B393A58E5}" src="https://github.com/user-attachments/assets/fd737423-babc-43f2-9dfe-ea27f62a53a2" />
 
-5. Funcionalidades Implementadas
 
-Nesta etapa foram implementadas as funcionalidades centrais do sistema:
-
-5.1 Cadastro de Clientes
-
-Permite registrar clientes com nome e telefone.
-
-5.2 Busca de Clientes
-
-Permite localizar clientes pelo nome, facilitando o atendimento em cenários com grande volume de registros.
-
-5.3 Cadastro de Produtos
-
-Permite cadastrar produtos como parafusos, pregos, canos, martelos e outros materiais da loja.
-
-5.4 Controle de Estoque
-
-O sistema registra a quantidade disponível de cada produto e atualiza automaticamente o estoque após a venda.
-
-5.5 Registro de Vendas
-
-Permite registrar vendas contendo múltiplos produtos e quantidades diferentes.
-
-5.6 Bloqueio por Inadimplência
-
-Clientes com compras registradas há mais de 30 dias são automaticamente bloqueados, impedindo novas compras no crediário.
-
-6. Paradigmas de Programação Aplicados
-6.1 Programação Procedural
-
-Aplicada principalmente no arquivo main.py, por meio do fluxo sequencial de execução do menu principal.
-
-Exemplo:
-
-cadastro
-consulta
-venda
-saída do sistema
-6.2 Programação Modular
-
-O sistema foi dividido em módulos especializados:
-
-cliente_service
-produto_service
-venda_service
-
-Essa abordagem melhora a organização e favorece a manutenção do código.
-
-6.3 Persistência de Dados
-
-A camada de persistência foi implementada por meio da integração entre Python e MySQL, permitindo o armazenamento permanente das informações.
-
-7. Roadmap de Desenvolvimento
-
-Como evolução futura do sistema, estão previstos:
-
-interface gráfica;
-dashboard administrativo;
-sistema de pagamentos;
-relatórios de inadimplência;
-histórico de compras por cliente.
-8. Estado Atual do Desenvolvimento
-
-Nesta fase, o projeto já apresenta um MVP funcional, contendo as principais funcionalidades do sistema e permitindo a demonstração prática do progresso do desenvolvimento.
-
-O sistema já está apto para:
-
-testes funcionais;
-apresentação parcial;
-demonstração do código;
-evolução para novas funcionalidades.
-9. Link do Repositório
-
-Inserir aqui o link do GitHub:
 
 https://github.com/HugoAlexandreCarvalho/construbrito-sistema
 
