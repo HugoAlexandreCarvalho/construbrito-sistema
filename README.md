@@ -1,3 +1,33 @@
+👥 Equipe Responsável
+Hugo Alexandre Carvalho Coelho Coutinho
+Jeferson Machado dos Santos
+Gustavo Barros Martins
+📌 Introdução
+O presente trabalho tem como objetivo apresentar o desenvolvimento inicial do Sistema Construbrito, uma solução tecnológica voltada para a gestão de uma loja de materiais de construção.
+A proposta do sistema surgiu a partir da identificação de necessidades reais da empresa, especialmente relacionadas a:
+Controle de estoque
+Cadastro de clientes
+Registro de vendas
+Bloqueio de clientes inadimplentes
+Nesta etapa, o foco foi transformar a modelagem e os requisitos levantados anteriormente em código funcional, estabelecendo a base tecnológica do projeto por meio da integração entre Python e MySQL.
+🎯 Objetivo do Sistema
+O sistema foi desenvolvido com o objetivo de automatizar processos internos da empresa, tornando o atendimento mais ágil e eficiente.
+Principais funcionalidades:
+Automatizar o cadastro de clientes
+Facilitar a busca de clientes por nome
+Controlar o estoque de produtos
+Registrar vendas com múltiplos itens
+Atualizar o estoque automaticamente após cada venda
+Bloquear clientes com compras vencidas há mais de 30 dias
+🛠️ Tecnologias Utilizadas
+As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
+Python → Linguagem principal do sistema
+MySQL → Sistema de gerenciamento de banco de dados
+VS Code → Ambiente de desenvolvimento
+GitHub → Versionamento e armazenamento remoto do código
+
+
+
 Equipe Responsavel 
 1 - Hugo Alexandre Carvalho Coelho Coutinho
 2 - Jeferson Machado dos Santos
